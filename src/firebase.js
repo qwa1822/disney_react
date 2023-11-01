@@ -6,7 +6,7 @@ import "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBCTPwWtxScm6-4GI1Ze61fiiK7TBB7X-k",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "react-disney-plus-app-5fcdb.firebaseapp.com",
   projectId: "react-disney-plus-app-5fcdb",
   storageBucket: "react-disney-plus-app-5fcdb.appspot.com",
